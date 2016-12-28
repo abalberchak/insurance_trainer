@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="UTF-8">
+
+    <script charset="UTF-8" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <title>BCBS TX</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BCBS IL Employer Group Information (EGI)</h1>
+      <div class="row">
+        <dl class="dl-horizontal">
+          <dt>Carrier Name: </dt>
+          <dd>BCBS</dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt>State: </dt>
+          <dd>IL</dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt>Version: </dt>
+          <dd>2015</dd>
+        </dl>
+      </div>
+      <div class="row">
+
+
+
+
+        <div class="pdf-container">
+          <!-- dummy image to resize the div -->
+          <img class="pdf" src="img/EGI_Page_1.jpg">
+
+
+          <!--Section A: Employer Information-->
+          <button type="button" id="a_employer_information" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section A</h4>
+
+              <hr>
+              <p>This is the "Company Name" and EIN # field found on the Company Console page.
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+        </div>
+
+
+
+        <div class="pdf-container">
+          <!-- dummy image to resize the div -->
+          <img class="pdf" src="img/EGI_Page_2.jpg">
+
+
+        </div>
+
+
+
+        <div class="pdf-container">
+          <!-- dummy image to resize the div -->
+          <img class="pdf" src="img/EGI_Page_3.jpg">
+
+
+        </div>
+
+
+
+        <div class="pdf-container">
+          <!-- dummy image to resize the div -->
+          <img class="pdf" src="img/EGI_Page_4.jpg">
+
+
+
+          <!--Section D: New Business Clients-->
+          <button type="button" id="d_client_information" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: New BCBSTX Clients</h4>
+
+              <hr>
+              <p>Refer to the Company's Establishment Date found on the Company Console page. Check the appropriate box based on this establishment date
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: Subsidiaries-->
+          <button type="button" id="d_subsidiaries" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Affiliate Subsidiaries</h4>
+
+              <hr>
+              <p>Refer to the top of the Company Console page to see if any subsidiary companies are listed. List and check the appropriate box based on whether a Subsidiary Company is listed
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: Calendar Year-->
+          <button type="button" id="d_calendar_year" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Calendar Year</h4>
+
+              <hr>
+              <p>Place the year of the Insurance Effective Date here
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: PEO-->
+          <button type="button" id="d_peo" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Seperate Filed Tax Return (PEO)</h4>
+
+              <hr>
+              <p>If the company existed last year and wasn't part of a PEO, select "Yes". Otherwise, select "No". To determine if a group was covered by a PEO, go to the Company Console Page and look inside the <b>"Documents"</b> Section. Look for a Termination Letter often denoted with the keywords <b>"Termination"</b>. If you see one, the group is likely a PEO switch. In this case, they will likely not have a QWTR since PEOs file taxes on behalf of its clients. If this is the case, select "No"
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: How Many Employees on Previous Years Payroll-->
+          <button type="button" id="d_previous_year" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Total Number of Employees on Last Year's Payroll</h4>
+
+              <hr>
+              <p>Download the Enrollment Report from the <b>Company's Console Page</b>. Count the number of employees who had <i>hire dates from the previous caledar year or earlier</i>. Go back to the Company Console Page and look at the Employee's Tab on the Upper Right Hand Corner. Count all <b>Part-time Employees</b> with hire dates from last calendar year or earlier. Count all <b>Terminated Employees</b> with Termination dates within the previous calendar year. Add these numbers up to get a total headcount of number of employees who were employed last year
+              </p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: Multi-Employer Group Plan-->
+          <button type="button" id="d_group_plan" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Part of a Multi-Employer Group Health Plan</h4>
+
+              <hr>
+              <p>This will typically be no unless the IM specifically mentions the group is part of a trust, plan, association, any other group of employers, or unions.</p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section B: 20 Or More-->
+          <button type="button" id="d_20_or_more" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: 20 or More Total Employees for each Working Day for the past 20 Weeks</h4>
+
+              <hr>
+              <p>a) Has this group employed 20 or more employees within the last 20 weeks? This is the sum of Full-time employees, Part-Time Employees, Seasonal Hires, and Partners. Determine if this is true for the previous year as well. Check the appropriate boxes n the right
+              <p>b) If you checked "Yes" for the Current year, you must input a date for when 20 hires was reached. Check the last acknowledgment box as well </p>
+
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: 20 Or More (PEO)-->
+          <button type="button" id="d_multi_employer_20" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Currently or During the Preceding Year Part of a Multi-Employer Group (20+ Employees)</h4>
+
+              <hr>
+              <p>Only complete this section if you answered "Yes" (PEO Group) in question #3. Determine whether the group exceeded 20 employees in both the current year and the previous year. Answer Accordingly</p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: 100 or More-->
+          <button type="button" id="d_100_or_more" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Did you have 100 or more Employees during 50% or More of the Business Days During the Preceeding Year?</h4>
+
+              <hr>
+              <p>Determine if the group ever had 100 or More employees during at least half of the Calendar Year in the previous Year. Check this by looking at the Company Console page and checking if all hires exceeded 100 in the previous year for at least 6 months. This will typically be "No" unless the group applying is a large group. </p>
+
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+          <!--Section D: 100 or More-->
+          <button type="button" id="d_100_or_more_peo" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            <div class="popover-content">
+              <h4>Section D: Currently or During the Preceding Year Part of a Multi-Employer Group (100+ Employees)</h4>
+
+              <hr>
+              <p>Only complete this section if you answered "Yes" (PEO Group) in question #3. Determine whether the group exceeded 100 employees in both the previous year. Answer Accordingly</p>
+            </div>
+            <span class="glyphicon glyphicon-plus-sign"></span>
+          </button>
+          <!--End Button-->
+
+
+</div>
+<div class="pdf-container">
+  <!-- dummy image to resize the div -->
+  <img class="pdf" src="img/EGI_Page_5.jpg">
+
+
+  <!--Section D: For ACA-MLR Purposes Only-->
+  <button type="button" id="aca_mlr_1" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    <div class="popover-content">
+      <h4>Section D: For ACA-MLR Purposes Only</h4>
+      <hr>
+      <p>Look at the Company's Console Page to locate the establishment date. Determine whether the Company existed in the previous calendar year. Answer Accordingly</p>
+      <p>Be sure to provide an estimated number of employes hired either in the previous year or future year.</p>
+      <p><b>Average Previous Year Employee Count</b> = # FT Employees hired last year + # PT Employees hired last year + # Terminated Employees hired last year </p>
+      <p><b>Average Future Year Employee Count</b> = # FT Employees hired curent year + # PT Employees hired current year + # Terminated Employees hired current year + # Onboarding Employees current year)</p>
+    </div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+  </button>
+  <!--End Button-->
+
+  <!--Section D: For ACA-MLR Purposes Only-->
+  <button type="button" id="aca_mlr_2" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    <div class="popover-content">
+      <h4>Section D: Church Plan (Subject to ERISA)</h4>
+      <hr>
+      <p>If the Company is subject to ERISA (not a church plan) select "No, our group health plan is NOT a church plan". This will typically be the selection made on this question. </p>
+
+    </div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+  </button>
+  <!--End Button-->
+
+  <!--Section D: For ACA-MLR Purposes Only-->
+  <button type="button" id="aca_mlr_signature" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    <div class="popover-content">
+      <h4>Section D: Employer Signature</h4>
+      <hr>
+      <p>Sign and date this section with the Company Admin's Signature </p>
+
+    </div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+  </button>
+  <!--End Button-->
+  <!--Section C: COBRA-->
+  <!--<button type="button" id="cobra" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    <div class="popover-content">
+      <h4>Section C: Did your company employ 20 or more Full-Time and/o part-time employees for at least 50% of the workdays of the preceeding calendar year?</h4>
+
+      <hr>
+      <p>Note the hire dates of each employee (including FT, PT, seasonal hires, Terminated Employees) listed on the Employees section of the Company Console page. If 20 or more were hired in the previous year for at least 6 months, the group is subject to COBRA. Answer Accordingly. </p>
+      <p>If the group is subject to COBRA and has employees currently on COBRA cverage, please list the employees below. Append an additional sheet if necessary. Be sure to note the coverage type as well</p>
+    </div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+  </button>
+  <!--End Button-->
+
+  <!--Section C: Worker's Comp-->
+  <!--<button type="button" id="workers_comp" class="more-info btn btn-success" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    <div class="popover-content">
+      <h4>Section C: Are any Employees Currently Receiving Worker's Compensation Benefits</h4>
+
+      <hr>
+      <p>Check the Company Console Page to see if any Employees are listed as receiving Worker's Compensation </p>
+      <p>If there are any employees receiving Worker's Comp, please list the employees below. Append an additional sheet if necessary. Be sure to note the coverage type as well</p>
+    </div>
+    <span class="glyphicon glyphicon-plus-sign"></span>
+  </button>
+  <!--End Button-->
+
+
+</div>
+
+<div class="pdf-container">
+  <!-- dummy image to resize the div -->
+  <img class="pdf" src="img/EGI_Page_6.jpg">
+
+
+
+
+</div>
+
+<div class="pdf-container">
+  <!-- dummy image to resize the div -->
+  <img class="pdf" src="img/EGI_Page_7.jpg">
+
+</div>
+
+
+      </div>
+    </div>
+  </body>
+</html>

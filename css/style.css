@@ -1,0 +1,105 @@
+img.pdf {
+  width: 100%;
+  display: block;
+  visibility: hidden;
+}
+
+.pdf-container {
+  background-size: contain;
+  position: relative;
+  /*background-image: url("../delta_ach.jpg");*/
+}
+
+
+.pdf-container > button.more-info {
+  position: absolute;
+}
+
+button.more-info > .popover-content {
+  display: none;
+}
+
+#a_employer_information {
+  top: 12%;
+  left: 0%;
+}
+
+#d_client_information {
+  top: 20%;
+  left: 0%;
+}
+
+#d_subsidiaries {
+  top: 24%;
+  left: 0%;
+}
+
+#d_calendar_year {
+  top: 27%;
+  left: 0%;
+}
+
+#d_peo {
+  top: 37%;
+  left: 0%;
+}
+
+#d_previous_year {
+  top: 42%;
+  left: 0%;
+}
+
+#d_group_plan {
+  top: 47%;
+  left: 0%;
+}
+
+#d_20_or_more {
+  top: 51%;
+  left: 0%;
+}
+
+#d_multi_employer_20 {
+  top: 63%;
+  left: 0%;
+}
+
+#d_100_or_more {
+  top: 74%;
+  left: 0%;
+}
+
+#d_100_or_more_peo {
+  top: 78%;
+  left: 0%;
+}
+
+#cobra {
+  top: 10%;
+  left: 2%;
+}
+
+#workers_comp {
+  top: 34%;
+  left: 2%;
+}
+
+#aca_mlr_1 {
+  top: 15%;
+  left: 2%;
+}
+
+#aca_mlr_2 {
+  top: 36%;
+  left: 2%;
+}
+
+#aca_mlr_signature {
+  top: 63%;
+  left: 2%;
+}
+
+#hmo_consumer_choice_health_benefit_plan {
+  top: 20%;
+  left: 2%;
+}
